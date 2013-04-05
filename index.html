@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Taquin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+  </head>
+  <body>
+     <div id="menu" class="menu">
+        <div class="input-append">
+          <input class="input-mini" id="difficulty" type="text" placeholder="Difficulty">
+          <button id="shuffle" type="button" class="btn">Shuffle</button>
+        </div>
+        <div class="input-append">
+          <input id="fileUrl" type="text" placeholder="Image url" class="input-mini">
+          <button id="url" class="btn" type="button">Url</button>
+          <button id="file" class="btn" type="button">File</button>
+          <button id="random" class="btn" type="button">Random</button>
+          <input id="hiddenInput" type="file" style="display:none;" accept="image/*" />
+        </div>
+        <div class="input-append">
+          <button id="viewOriginalImage" type="button" class="btn">View original image</button>
+        </div>
+    </div>
+    <div id="alert-container">
+    
+    </div>
+    <div id="canvas-container">
+    </div>
+    <script src="js/taquin.js"></script>
+    <script src="js/client.js"></script>
+  </body>
+</html>
